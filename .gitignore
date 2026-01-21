@@ -1,1 +1,48 @@
 learningRestApi/.env
+
+
+# HELP file
+ **/HELP.md
+
+ # Maven
+ **/target/
+ **/.mvn/wrapper/maven-wrapper.jar
+
+ # Allow target inside src (Spring Boot special case)
+ !**/src/main/**/target/
+ !**/src/test/**/target/
+
+ ### STS ###
+ **/.apt_generated
+ **/.classpath
+ **/.factorypath
+ **/.project
+ **/.settings/
+ **/.springBeans
+ **/.sts4-cache/
+
+ ### IntelliJ IDEA ###
+ **/.idea/
+ **/*.iws
+ **/*.iml
+ **/*.ipr
+
+ ### NetBeans ###
+ **/nbproject/private/
+ **/nbbuild/
+ **/dist/
+ **/nbdist/
+ **/.nb-gradle/
+
+ # Gradle
+ **/build/
+
+ # Allow build inside src
+ !**/src/main/**/build/
+ !**/src/test/**/build/
+
+ ### VS Code ###
+ **/.vscode/
+
+ # Environment files
+ **/.env*
