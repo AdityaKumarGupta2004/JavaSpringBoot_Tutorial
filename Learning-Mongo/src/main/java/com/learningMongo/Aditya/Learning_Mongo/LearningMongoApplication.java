@@ -8,7 +8,7 @@ public class LearningMongoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(LearningMongoApplication.class, args);
-		System.out.println("Aditya is Server");
+		System.out.println("Aditya's Server");
 	}
 
 }
